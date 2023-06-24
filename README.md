@@ -8,18 +8,18 @@ This is a simple example of using ngrok with a Golang HTTP server.
 
 ## Download ngrok
 
-Download ngrok from [https://dashboard.ngrok.com/get-started/setup](https://dashboard.ngrok.com/get-started/setup). Unzip it and move it to somewhere in your path.
+Download ngrok [here](https://dashboard.ngrok.com/get-started/setup). Unzip it and move it to somewhere in your path.
 
 ## Authenticate ngrok
 
-Prior to using ngrok, you'll need to authorize it
+Prior to using ngrok, you'll need to authorize it.
 
 Your authorization token can be retrieved from ngrok's site [here](https://dashboard.ngrok.com/get-started/your-authtoken).
 
 In your terminal, add your auth token to your ngrok configuration:
 
 ```
-$ ngrok config add-authtoken YOURTOKENFROMNGROKHERE
+$ ngrok config add-authtoken YOUR_TOKEN_FROM_NGROK_HERE
 ```
 
 ## Build the web server
