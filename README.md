@@ -4,6 +4,8 @@ ngrok is an extremely easy way to expose your HTTP application to the internet. 
 
 This is a simple example of using ngrok with a Golang HTTP server.
 
+This content is also available on my [blog](https://fulcrumops.com/blog).
+
 ## Sign up for an ngrok account
 
 If you haven't already done so, sign up for a free [ngrok account](https://ngrok.com/).
